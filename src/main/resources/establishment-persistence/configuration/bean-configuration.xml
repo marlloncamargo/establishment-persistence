@@ -1,0 +1,22 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+	<context:annotation-config />
+
+	<bean id="alternateScheduleDAO" class="br.com.ganix.establishment.persistence.dao.AlternateScheduleDAO"/>
+	<bean id="controlIDDAO" class="br.com.ganix.establishment.persistence.dao.ControlIDDAO"/>
+	<bean id="defaultScheduleDAO" class="br.com.ganix.establishment.persistence.dao.DefaultScheduleDAO"/>
+	<bean id="establishmentDAO" class="br.com.ganix.establishment.persistence.dao.EstablishmentDAO"/>
+	<bean id="establishmentTypeDAO" class="br.com.ganix.establishment.persistence.dao.EstablishmentTypeDAO"/>
+	<bean id="establishmentTypeEstablishmentDAO" class="br.com.ganix.establishment.persistence.dao.EstablishmentTypeEstablishmentDAO"/>
+	<bean id="featureDAO" class="br.com.ganix.establishment.persistence.dao.FeatureDAO"/>
+	<bean id="featureEstablishmentDAO" class="br.com.ganix.establishment.persistence.dao.FeatureEstablishmentDAO"/>
+	<bean id="featureGroupDAO" class="br.com.ganix.establishment.persistence.dao.FeatureGroupDAO"/>
+	<bean id="holidayDAO" class="br.com.ganix.establishment.persistence.dao.HolidayDAO"/>
+	<bean id="seasonalityDAO" class="br.com.ganix.establishment.persistence.dao.SeasonalityDAO"/>
+
+</beans>
